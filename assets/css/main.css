@@ -1,0 +1,49 @@
+.container{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  #point1, #point2, #point3{
+	width: 25px;
+	height: 25px;
+	margin: 0 3px;
+	border-radius: 50%;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+  }
+  
+  #point1 {
+	animation-name: point1;
+	background colour: #021032
+  }
+  
+  @keyframes point1{
+	25% {background-color: #021032; margin-top: -50px}
+	50% {background-color: #063CBF}
+	75% {background-color: #0850FF}
+  }
+  
+  #point2 {
+	animation-name: point2;
+	background colour: #063CBF
+  }
+  
+  @keyframes point2{
+	25% {background-color: #0850FF}
+	50% {background-color: #021032; margin-top: -50px}
+	75% {background-color: #063CBF}
+  }
+  
+  #point3{
+	animation-name: point3;
+	background colour: #0850ff
+  }
+  
+  @keyframes point3{
+	25% {background-color: #063CBF}
+	50% {background-color: #0850FF}
+	75% {background-color: #021032; margin-top: -50px}
+  }
